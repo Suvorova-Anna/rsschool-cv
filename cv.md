@@ -9,7 +9,7 @@
 * __Phone__: +7 (912)755-32-00
 * __E-mail__: fyz098qw@yandex.ru
 * __Telegram__: [suvor_a](https://t.me/suvor_a)
-* __Discord__: [suvor__a(@Suvorova-Anna)]()
+* __Discord__: [suvor__a(@Suvorova-Anna)](discord.com/users/273853377337622528)
 # About me:
 ---
 _I am 25 years old. After working in my field of study for half a year, I realized that I absolutely do not like this area. After that, I began to look for something that really resonates with me. 
@@ -38,4 +38,4 @@ function multiply(a, b){
 My level of English is A1-A2 (I understand simple texts, but listening comprehension is difficult for me.)
 # Project
 ---
-[]()
+[CV-1](https://github.com/Suvorova-Anna/rsschool-cv)
