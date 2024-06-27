@@ -1,3 +1,2 @@
 # rsschool-cv
-https://Suvorova-Anna.github.io/rsschool-cv/cvGITHUB-USERNAME.github.io/rsschool-cv/cv
-
+https://github.com/Suvorova-Anna/rsschool-cv/blob/gh-pages/cv
