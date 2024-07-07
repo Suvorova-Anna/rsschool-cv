@@ -228,12 +228,11 @@ main {
   padding-left: 52px;
   border-left: 2px solid #000;
 }
-.code-example {
-  margin-bottom: 50px;
+.code {
+  margin-bottom: 48px;
 }
-pre {
+.code-example {
   margin: 0;
-  margin-bottom: 28px;
   font-size: 15px;
   font-weight: 400;
   line-height: 150%;
