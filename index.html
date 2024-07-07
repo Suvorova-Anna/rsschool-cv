@@ -1,40 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>CV-3</title>
-</head>
-<body>
-<header class="header">
-    <div class="container">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
         <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#education" class="nav-link">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#code" class="nav-link">Code</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#english" class="nav-link">English</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#project" class="nav-link">Project</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Project</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contacts</a>
+            </li>
+          </ul>
         </nav>
-    </div>
-</header>
-</body>
+      </div>
+    </header>
+    <main>
+      <div class="container hero-container">
+        <div class="surname-name-vacancy">
+            <div class="left surname-name">
+                <h1 class="surname">SUVOROVA</h1>
+                <span class="name">ANNA</span>
+            </div>
+            <div class="right vacancy">
+               JUNIOR FRONTEND DEVELOPER
+            </div>
+        </div>
+        <div class="photo-about-english">
+            <div class="left photo">
+                <img src="./img/photo.jpg" alt="avatar" class="photo-img">
+            </div>
+            <div class="right about-english">
+                <div class="about-block">
+                    <h2 class="hero-container-heading" id="about">ABOUT ME</h2>
+                    <p class="about-description">I am 25 years old. After working in my field of study for half a year, I realized that I absolutely do not like this area. After that, I began to look for something that really resonates with me.
+                        Thus, this path led me to frontend development. I enjoy the results I get and the realization that I can create cool things on my own. And there is so much more ahead. I hope this course will be a
+                        good help for my further development.</p>
+                </div>
+                <div class="english">
+                    <h2 class="hero-container-heading" id="english">ENGLISH</h2>
+                    <p class="english-description">My level of English is A1-A2 (I understand simple texts, but listening comprehension is difficult for me.)</p>
+                </div>
+            </div>
+        </div>
+        <div class="education-skills-contact-code-project">
+            <div class="left education-skills-contact">
+                <div class="education" id="education">
+                    <h2 class="hero-container-heading">EDUCATION</h2>
+                    <span class="university">UDMURT STATE UNIVERSITY</span>
+                    <div class="institute">Institute of Law, Social Management and Security</div>
+                    <span class="specialization">Specialization: legal support of national security</span>
+                    <span class="years">2017-2022</span>
+                </div>
+                <div class="skills" id="skills">
+                    <h2 class="hero-container-heading">SKILLS</h2>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">HTML</li>
+                        <li class="skills-list-item">CSS</li>
+                        <li class="skills-list-item">Figma</li>
+    
+                    </ul>
+                </div>
+                <div class="contacts" id="contact">
+                    <h2 class="hero-container-heading">CONTACTS</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-list-item">+7 (912)755-32-00</li>
+                        <li class="contacts-list-item">
+                            <a href="mailto:fyz098qw@yandex.ru" class="e-mail">fyz098qw@yandex.ru</a>
+                        </li>
+                    </ul>
+                    <div class="contacts-social">
+                        <a href="https://t.me/suvor_a">
+                            <img src="./img/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="discord.com/users/273853377337622528">
+                            <img src="./img/discord.svg" alt="discord">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right code-project">
+                <div class="code">
+                    <h2 class="hero-container-heading" id="code">CODE EXAMPLE</h2>
+                    <code class="code-example">
+                        <pre>function sumOfMultiples(n) { <br> let sum = 0;<br> for (let i = 1; i &lt;= n; i++) {<br>  if (i % 3 === 0 || i % 5 === 0) <br>   sum += i;<br>  }<br> } <br> return sum;<br>}
+                        </pre>
+                    </code>
+                </div>
+                <div class="project">
+                    <h2 class="hero-container-heading" id="project">PROJECT</h2>
+                    <figure>
+                        <a href="https://suvorova-anna.github.io/rsschool-cv/cv">
+                            <img src="./img/cv-1.png" alt="cv-1" class="project-img">
+                        </a>
+                        <figcaption>
+                            <a href="https://suvorova-anna.github.io/rsschool-cv/cv">CV-1</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-elements">
+            <a href="https://rs.school/courses/javascript-ru" class="footer-link-logo">
+                <img src="./img/rs-school-logo.svg" alt="logo" width="123px" height="45px">
+            </a>
+            <span class="year">2024</span>
+            <span class="github">
+                <a href="https://github.com/Suvorova-Anna" class="github-link">Suvorova-Anna</a>
+            </span>
+        </div>
+    </footer>
+  </body>
 </html>
