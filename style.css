@@ -1,0 +1,291 @@
+/* mohave-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Mohave";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Fonts/mohave-v9-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* carme-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Carme";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Fonts/carme-v16-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Fonts/raleway-v34-latin/raleway-v34-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./Fonts/raleway-v34-latin/raleway-v34-latin-600.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h2 {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5%;
+  line-height: 127%;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #000;
+}
+p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 6.5%;
+  line-height: 150%;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+
+/*Header*/
+
+.header {
+  margin-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 80px;
+  border-bottom: 2px solid #000;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+.nav-item {
+  font-size: 20px;
+  letter-spacing: -1.5;
+  font-family: "Mohave", sans-serif;
+}
+.left {
+  width: 30%;
+}
+.right {
+  width: 70%;
+}
+
+/*main*/
+
+main {
+    border-bottom: 2px solid #000;
+}
+.hero-container {
+  margin-bottom: 50px;
+}
+.surname-name-vacancy {
+  display: flex;
+  margin-bottom: 100px;
+}
+.surname-name {
+  padding-right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-right: 2px solid #000;
+}
+.surname {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -1.5%;
+  text-transform: uppercase;
+  font-family: "Mohave", sans-serif;
+  color: #000;
+}
+.name {
+  font-size: 40px;
+  letter-spacing: -1.5%;
+  text-transform: uppercase;
+  font-family: "Mohave", sans-serif;
+  color: #000;
+}
+.vacancy {
+  padding-left: 52px;
+  max-width: 254px;
+  font-size: 22px;
+  letter-spacing: 4.5%;
+  text-transform: uppercase;
+  font-family: "Carme", sans-serif;
+  color: #000;
+}
+.photo-about-english {
+  display: flex;
+  margin-bottom: 80px;
+}
+.photo {
+  padding-right: 70px;
+  padding-left: 24px;
+  border-right: 2px solid #000;
+}
+.photo-img {
+  max-width: 257px;
+  width: 100%;
+  max-height: 373px;
+}
+.about-english {
+  padding-left: 52px;
+}
+.about-block {
+  margin-bottom: 50px;
+}
+.education-skills-contact-code-project {
+  display: flex;
+}
+.education {
+  margin-bottom: 77px;
+  padding-right: 70px;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.university {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 190%;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+.institute,
+.specialization,
+.years,
+.skills-list,
+.contacts {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 190%;
+  letter-spacing: 5%;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+.skills {
+  margin-bottom: 70px;
+  padding-right: 70px;
+  padding-left: 24px;
+  text-align: right;
+}
+.contacts {
+  padding-right: 70px;
+  padding-left: 24px;
+  text-align: right;
+}
+.contacts-list {
+  margin-bottom: 8px;
+}
+.contacts-social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.code-project {
+  padding-left: 52px;
+  border-left: 2px solid #000;
+}
+.code {
+  margin-bottom: 48px;
+}
+.code-example {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 6.5%;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+.project {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 6.5%;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+figure {
+  margin: 0;
+}
+.project-img {
+  max-width: 609px;
+  width: 100%;
+}
+
+/*footer*/
+
+.footer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  max-width: 1200px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 6.5%;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+.footer-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github {
+  display: block;
+}
+.github-link {
+  display: inline-block;
+  max-height: 100%;
+    padding-left: 30px;
+    background-image: url(./img/github.svg);
+    background-position: left center;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    
+}
